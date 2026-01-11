@@ -102,7 +102,7 @@ Where:
 
   * RGB images
   * Corresponding binary masks of crop fields
-* Dataset size kept small to support lightweight deployment
+
 
 ![image_alt](temp/88605.jpeg)
 ![image_alt](temp/88605.png)
@@ -123,7 +123,7 @@ Where:
 ## Use Cases
 
 * Precision agriculture
-* Crop monitoring and mapping
 * Farm-level area estimation
 * Decision support for farmers and researchers
+* Yeild calculation using farm area
 
