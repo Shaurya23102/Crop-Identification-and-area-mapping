@@ -82,7 +82,7 @@ Where:
 * **Npixels**: Total number of pixels belonging to the segmented crop field
 * **GSD (Ground Sample Distance)**: Ground distance represented by one pixel (meters per pixel)
 
-This method converts pixel-level segmentation results into real-world area measurements.
+
 ![image alt](temp/img1.jpeg)
 ![image alt](temp/img2.jpeg)
 ---
@@ -103,6 +103,9 @@ This method converts pixel-level segmentation results into real-world area measu
   * RGB images
   * Corresponding binary masks of crop fields
 * Dataset size kept small to support lightweight deployment
+
+![image_alt](temp/88605.jpeg)
+![image_alt](temp/88605.png)
 
 ---
 
