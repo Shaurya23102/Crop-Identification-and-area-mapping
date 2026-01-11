@@ -83,7 +83,8 @@ Where:
 * **GSD (Ground Sample Distance)**: Ground distance represented by one pixel (meters per pixel)
 
 This method converts pixel-level segmentation results into real-world area measurements.
-
+![Alt Text](img1.png)
+![Alt Text](img2.png)
 ---
 
 ## Geospatial Visualization
