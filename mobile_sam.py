@@ -4,14 +4,7 @@ from ultralytics import SAM
 import torch
 
 def generate_cadastral_mask(image_path, output_path):
-    # 1. Load the MobileSAM model
     model = SAM('mobile_sam.pt')
-
-    print(f"Processing {image_path}...")
-
-    # 2. Run Inference
-    # conf=0.15: LOWERED threshold to catch very faint minute fields
-    # iou=0.6: Helps separate touching fields better
     results = model.predict(image_path, conf=0.10, iou=0.8, verbose=False)
 
     # Get the original image dimensions
